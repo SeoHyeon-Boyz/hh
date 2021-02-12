@@ -1,6 +1,107 @@
-.test1{
-    background-color: gray;
+.headerWrap{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-.test456{
-    background-color: green;
+.headerWrap div{
+    font-size: 13px;
+    margin-left: 16px;
 }
+.headerWrap .optImg{
+    width: 24px;
+}
+.headerWrap .profileImg{
+    width: 36px;
+}
+.searchWrap{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.searchBox{
+    display: flex;
+}
+.searchWrap .logoImg{
+    width: 600px;
+    margin: 80px auto;
+}
+.searchWrap div{
+    margin: 0px auto;
+    
+}
+.searchBox img{
+    display:flex;
+}
+.searchBox{
+    
+    width: 584px;
+    height: 46px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 3px 8px;
+}
+.searchBox input{
+    width: 447px;
+    height: 34px;
+    border: 0px solid #dfe1e5;
+    outline: none;
+}
+.searchBox div{
+    margin: auto 8px;
+}
+
+.searchBox .searchIco{
+    width: 20px;
+}
+.searchBox .typeIco{
+    width: 24px;
+}
+.searchBox .micIco{
+    width: 24px;
+}
+.searchPlus{
+    padding-top: 20px;
+}
+.searchPlus button{
+    font-size: 14px;
+    border: 0px solid;
+    width: 102.98pt; 
+    height: 36pt;
+}
+.footerWrap{
+    margin-top: 300px;
+}
+.footerWrap .footerTop{
+    background: #f2f2f2;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.footerBotom{
+    display: flex;
+    border: 0px solid ;
+    padding: 10px 0;
+    background-color:#f2f2f2;
+    border-top: 1px solid grey;
+    
+}
+.leftWrap{
+    display: flex;
+}
+.leftWrap div{
+    margin: 0 3px;
+}
+.rightWrap{
+    display: flex;
+    border: 0px solid;
+    margin-left: auto;
+}
+.rightWrap div{
+    margin: 0 3px;
+}
+/* .headerWrap .firstMargin{
+    margin-left: auto;
+}
+.headerWrap div{
+    margin: auto 0;
+} */
